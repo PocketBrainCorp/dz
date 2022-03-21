@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// TODO(Kosan4kk): Implement `power of` function
 // проинициализировать функции
 
 int isPrime(int n);
