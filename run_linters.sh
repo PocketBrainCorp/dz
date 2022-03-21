@@ -4,7 +4,6 @@ set -o pipefail
 
 function print_header() {
     echo -e "\n***** ${1} *****"
-    
 }
 
 function check_log() {
