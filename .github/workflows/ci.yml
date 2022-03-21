@@ -4,6 +4,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     container: leshiy1295/gcc_linters
+    options: —user root
     steps:
       - uses: actions/checkout@v2
       - run: make check
